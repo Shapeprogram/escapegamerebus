@@ -22,7 +22,11 @@ if(isset($_POST['submit']))
     $five=$_POST['five'];
     $four=$_POST['four'];
     $six=$_POST['six'];
-    ?> <p><?php echo "c'est bien envoyé"?></p><?php
+    echo '<p>c\'est bien envoyé</p>';
+}
+else
+{
+    echo'<p>salut</p>';
 }
 ?>
 
