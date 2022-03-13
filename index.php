@@ -27,12 +27,13 @@ if(isset($_POST['submit']))
 else
 {
     echo'<p>salut</p>';
+    $six=$_POST['six'];
 }
 ?>
 
 </div>
 <section id="midlane">
-    <form name="genealogie" action="index.php" method="post">
+    <form name="genealogie" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <label for="one"></label><input maxlength="1" type="text" placeholder="1" id="one" required/>
         <label for="two"></label><input maxlength="1" type="text" placeholder="2" id="two" required/>
         <label for="three"></label><input maxlength="1" type="text" placeholder="3" id="three" required/>
@@ -43,7 +44,7 @@ else
         <label for="oneone"></label><input maxlength="1" type="text" placeholder="1" id="oneone" required/>
         <label for="seven"></label><input maxlength="1" type="text" placeholder="7" id="seven" required/>
         <label for="twotwotwo"></label><input maxlength="1" type="text" placeholder="2" id="twotwotwo" required/>
-        <input type="submit" value="Envoyer"/>
+        <input type="submit" name="submit" id="submit" value="Envoyer"/>
     </form>
 </section>
 <p id="wrap2">© Primaire du Pieu de Bruxelles</p>
