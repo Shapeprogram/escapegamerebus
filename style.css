@@ -21,14 +21,15 @@ body{
 {
     display:block;
     width:100%;
-    border:1px solid red;
     margin-top:50px;
     margin-bottom:50px;
 }
 
 input{
-    width:8%;
-    margin-left:1.5%;
+    width:5%;
+    margin-left:5%;
     text-align: center;
     font-size: 16px;
+    background-color:rgb(223, 226, 245);
+    border:1px solid rgb(191, 198, 242);
 }
