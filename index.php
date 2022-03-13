@@ -11,7 +11,7 @@
 <header>
 </header>
 <section id="midlane">
-    <form>
+    <form action="index.php" method="post">
         <input maxlength="1" type="text" placeholder="1"/>
         <input maxlength="1" type="text" placeholder="2"/>
         <input maxlength="1" type="text" placeholder="3"/>
