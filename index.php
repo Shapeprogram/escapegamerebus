@@ -13,12 +13,11 @@
 <?php
 if(isset($_POST['submit']))
 {
-    extract($_POST,EXTR_OVERWRITE);
     ?> <p><?php print "form sent";?></p><?php
 }
 ?>
 <section id="midlane">
-    <form action="index.php" method="post">
+    <form name="genealogie" action="index.php" method="post">
         <input maxlength="1" type="text" placeholder="1" id="one" required/>
         <input maxlength="1" type="text" placeholder="2" id="two" required/>
         <input maxlength="1" type="text" placeholder="3" id="three" required/>
