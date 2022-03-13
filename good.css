@@ -1,0 +1,12 @@
+body{
+    background-color: green;
+}
+
+p{
+    color:white;
+    width:50%;
+    margin-left:25%;
+    font-size: 80px;
+    text-align:center;
+    margin-top:400px;
+}

@@ -11,7 +11,6 @@
 <header>
 </header>
 <div>
-<p>olo</p>
 <?php
 if(isset($_POST['submit']))
 {
@@ -19,31 +18,48 @@ if(isset($_POST['submit']))
     $two=$_POST['two'];
     $three=$_POST['three'];
     $twotwo=$_POST['twotwo'];
-    $five=$_POST['five'];
     $four=$_POST['four'];
+    $five=$_POST['five'];
     $six=$_POST['six'];
-    echo '<p>c\'est bien envoyé</p>';
-}
-else
-{
-    echo'<p>salut</p>';
-    $six=$_POST['six'];
+    $seven=$_POST['seven'];
+    $twotwotwo=$_POST['twotwotwo'];
+    $oneone=$_POST['oneone'];
+    if
+    (
+            ($one=='g' or $one=='G')==true &&
+            ($oneone=='g' or $oneone=='G')==true &&
+            ($two=='e' or $two=='E')==true &&
+            ($twotwo=='e' or $twotwo=='E')==true &&
+            ($twotwotwo=='e' or $twotwo=='E')==true &&
+            ($three=='n' or $three=='N')==true &&
+            ($four=='a' or $four=='A')==true &&
+            ($five=='l' or $five=='L')==true &&
+            ($six=='o' or $six=='O')==true &&
+            ($seven=='i' or $seven=='I')==true
+    )
+    {
+        echo "<p>good</p>";
+        header('Location: good.php');
+        exit();
+    }
+    else
+        echo'<p id="mauvaismot"> Le mot '.$one.$two.$three.$twotwo.$four.$five.$six.$oneone.$seven.$twotwotwo.' n\'est pas le bon mot</p>';
 }
 ?>
 
 </div>
 <section id="midlane">
     <form name="genealogie" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-        <label for="one"></label><input maxlength="1" type="text" placeholder="1" id="one" required/>
-        <label for="two"></label><input maxlength="1" type="text" placeholder="2" id="two" required/>
-        <label for="three"></label><input maxlength="1" type="text" placeholder="3" id="three" required/>
-        <label for="twotwo"></label><input maxlength="1" type="text" placeholder="2" id="twotwo" required/>
-        <label for="four"></label><input maxlength="1" type="text" placeholder="4" id="four" required/>
-        <label for="five"></label><input maxlength="1" type="text" placeholder="5" id="five" required/>
-        <label for="six"></label><input maxlength="1" type="text" placeholder="6" id="six" required/>
-        <label for="oneone"></label><input maxlength="1" type="text" placeholder="1" id="oneone" required/>
-        <label for="seven"></label><input maxlength="1" type="text" placeholder="7" id="seven" required/>
-        <label for="twotwotwo"></label><input maxlength="1" type="text" placeholder="2" id="twotwotwo" required/>
+        <label for="one"></label><input maxlength="1" type="text" placeholder="1" name="one" id="one" required/>
+        <label for="two"></label><input maxlength="1" type="text" placeholder="2" id="two" name="two" required/>
+        <label for="three"></label><input maxlength="1" type="text" placeholder="3" name="three" id="three" required/>
+        <label for="twotwo"></label><input maxlength="1" type="text" placeholder="2" name="twotwo" id="twotwo" required/>
+        <label for="four"></label><input maxlength="1" type="text" placeholder="4" name="four" id="four" required/>
+        <label for="five"></label><input maxlength="1" type="text" placeholder="5" name="five" id="five" required/>
+        <label for="six"></label><input maxlength="1" type="text" placeholder="6" name="six" id="six" required/>
+        <label for="oneone"></label><input maxlength="1" type="text" placeholder="1" name="oneone" id="oneone" required/>
+        <label for="seven"></label><input maxlength="1" type="text" placeholder="7" name="seven" id="seven" required/>
+        <label for="twotwotwo"></label><input maxlength="1" type="text" placeholder="2" name="twotwotwo" id="twotwotwo" required/>
         <input type="submit" name="submit" id="submit" value="Envoyer"/>
     </form>
 </section>

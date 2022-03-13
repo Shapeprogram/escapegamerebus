@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding:0;
-    background-color:rgb(29, 40, 102);
+    background-color:rgb(5, 80, 110);
 }
 
 #wrap2
@@ -26,9 +26,9 @@ body{
 }
 
 input[type=text]{
-    width:8%;
+    width:9%;
     height: 30px;
-    margin-left:1.56%;
+    margin-left:4.5%;
     text-align: center;
     font-size: 16px;
     background-color:rgb(223, 226, 245);
@@ -43,17 +43,13 @@ input[type=submit]
 
 
 }
-
-p {
-    color:white;
-}
-
 #mauvaismot
 {
     display:block;
-    color:darkred;
+    color:rgb(240, 93, 93);
     width:100%;
     font-weight: bold;
     text-align: center;
     font-size: 20px;
+    margin-top:50px;
 }
