@@ -25,11 +25,17 @@ body{
     margin-bottom:50px;
 }
 
-input{
+input[type=text]{
     width:5%;
     margin-left:5%;
     text-align: center;
     font-size: 16px;
     background-color:rgb(223, 226, 245);
     border:1px solid rgb(191, 198, 242);
+}
+input[type=submit]
+{
+    display: block;
+    width:20%;
+    margin-left:40%;
 }

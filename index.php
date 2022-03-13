@@ -11,16 +11,19 @@
 <header>
 </header>
 <section id="midlane">
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
-    <input maxlength="1" />
+    <form>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text"/>
+        <input type="submit" value="Envoyer"/>
+    </form>
 </section>
 <p id="wrap2">© Primaire du Pieu de Bruxelles</p>
 </body>
