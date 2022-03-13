@@ -11,27 +11,27 @@
 <header>
 </header>
 <div>
-<p>olo
+<p>olo</p>
 <?php
 if(isset($_POST['submit']))
 {
     ?> <p><?php print "form sent";?></p><?php
 }
 ?>
-</p>
+
 </div>
 <section id="midlane">
     <form name="genealogie" action="index.php" method="post">
-        <input maxlength="1" type="text" placeholder="1" id="one" required/>
-        <input maxlength="1" type="text" placeholder="2" id="two" required/>
-        <input maxlength="1" type="text" placeholder="3" id="three" required/>
-        <input maxlength="1" type="text" placeholder="2" id="twotwo" required/>
-        <input maxlength="1" type="text" placeholder="4" id="four" required/>
-        <input maxlength="1" type="text" placeholder="5" id="five" required/>
-        <input maxlength="1" type="text" placeholder="6" id="six" required/>
-        <input maxlength="1" type="text" placeholder="1" id="oneone" required/>
-        <input maxlength="1" type="text" placeholder="7" id="seven" required/>
-        <input maxlength="1" type="text" placeholder="2" id="twotwotwo" required/>
+        <label for="one"></label><input maxlength="1" type="text" placeholder="1" id="one" required/>
+        <label for="two"></label><input maxlength="1" type="text" placeholder="2" id="two" required/>
+        <label for="three"></label><input maxlength="1" type="text" placeholder="3" id="three" required/>
+        <label for="twotwo"></label><input maxlength="1" type="text" placeholder="2" id="twotwo" required/>
+        <label for="four"></label><input maxlength="1" type="text" placeholder="4" id="four" required/>
+        <label for="five"></label><input maxlength="1" type="text" placeholder="5" id="five" required/>
+        <label for="six"></label><input maxlength="1" type="text" placeholder="6" id="six" required/>
+        <label for="oneone"></label><input maxlength="1" type="text" placeholder="1" id="oneone" required/>
+        <label for="seven"></label><input maxlength="1" type="text" placeholder="7" id="seven" required/>
+        <label for="twotwotwo"></label><input maxlength="1" type="text" placeholder="2" id="twotwotwo" required/>
         <input type="submit" value="Envoyer"/>
     </form>
 </section>
