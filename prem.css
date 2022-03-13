@@ -53,3 +53,32 @@ input[type=submit]
     font-size: 20px;
     margin-top:50px;
 }
+
+@media (max-width:600px)
+{
+    body {
+        margin:0;
+    }
+
+    input[type=text]{
+        width:90%;
+        height: 40px;
+        margin-left:5%;
+        margin-right:0;
+        margin-top:10px;
+        text-align: center;
+        font-size: 16px;
+        background-color:rgb(223, 226, 245);
+        border:1px solid rgb(191, 198, 242);
+    }
+    input[type=submit]
+    {
+        display: block;
+        width:80%;
+        margin-left:10%;
+        margin-top:25px;
+
+
+    }
+
+}
