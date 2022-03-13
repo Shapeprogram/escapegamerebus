@@ -28,9 +28,9 @@ if(isset($_POST['submit']))
     (
             ($one=='g' or $one=='G')==true &&
             ($oneone=='g' or $oneone=='G')==true &&
-            ($two=='e' or $two=='E')==true &&
-            ($twotwo=='e' or $twotwo=='E')==true &&
-            ($twotwotwo=='e' or $twotwo=='E')==true &&
+            ($two=='e' or $two=='E' or $two=='é' or $two=='É')==true &&
+            ($twotwo=='e' or $twotwo=='E' or $twotwo=='é' or $twotwo=='É')==true &&
+            ($twotwotwo=='e' or $twotwotwo=='E' or $twotwotwo=='é' or $twotwotwo=='É')==true &&
             ($three=='n' or $three=='N')==true &&
             ($four=='a' or $four=='A')==true &&
             ($five=='l' or $five=='L')==true &&
