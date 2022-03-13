@@ -11,7 +11,16 @@
 <header>
 </header>
 <section id="midlane">
-
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
+    <input maxlength="1" />
 </section>
 <p id="wrap2">© Primaire du Pieu de Bruxelles</p>
 </body>
