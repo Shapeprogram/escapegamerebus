@@ -15,7 +15,14 @@
 <?php
 if(isset($_POST['submit']))
 {
-    ?> <p><?php print "form sent";?></p><?php
+    $one=$_POST['one'];
+    $two=$_POST['two'];
+    $three=$_POST['three'];
+    $twotwo=$_POST['twotwo'];
+    $five=$_POST['five'];
+    $four=$_POST['four'];
+    $six=$_POST['six'];
+    ?> <p><?php echo "c'est bien envoyé"?></p><?php
 }
 ?>
 
