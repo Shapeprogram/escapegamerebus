@@ -31,7 +31,7 @@
         )
         {
             echo "<p>good</p>";
-            header('Location: index.php');
+            header('Location: indexs.php');
             exit();
         }
         else
