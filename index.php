@@ -12,16 +12,16 @@
 </header>
 <section id="midlane">
     <form>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
-        <input maxlength="1" type="text"/>
+        <input maxlength="1" type="text" placeholder="1"/>
+        <input maxlength="1" type="text" placeholder="2"/>
+        <input maxlength="1" type="text" placeholder="3"/>
+        <input maxlength="1" type="text" placeholder="2"/>
+        <input maxlength="1" type="text" placeholder="4"/>
+        <input maxlength="1" type="text" placeholder="5"/>
+        <input maxlength="1" type="text" placeholder="6"/>
+        <input maxlength="1" type="text" placeholder="1"/>
+        <input maxlength="1" type="text" placeholder="7"/>
+        <input maxlength="1" type="text" placeholder="2"/>
         <input type="submit" value="Envoyer"/>
     </form>
 </section>
