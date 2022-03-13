@@ -10,12 +10,16 @@
 <body>
 <header>
 </header>
+<div>
+<p>
 <?php
 if(isset($_POST['submit']))
 {
     ?> <p><?php print "form sent";?></p><?php
 }
 ?>
+</p>
+</div>
 <section id="midlane">
     <form name="genealogie" action="index.php" method="post">
         <input maxlength="1" type="text" placeholder="1" id="one" required/>
