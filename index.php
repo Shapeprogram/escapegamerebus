@@ -11,3 +11,8 @@
 <header>
 </header>
 <section id="midlane">
+
+</section>
+<p id="wrap2">© Primaire du Pieu de Bruxelles</p>
+</body>
+</html>
