@@ -24,7 +24,7 @@
         (
             ($one=='comment' or $one=='Comment')==true &&
             ($two=='s\'appelle' or $two=='sappelle' or $two=='Sappelle' or $two=='S\'appelle' or $two=='Sʹappelle' or $two=='sʹappelle' or $two=='Sˊappelle' or
-                $two=='sˊappelle' or $two=='S′appelle' or $two=='s′appelle' or $two=='sˈappelle' or $two=='Sˈappelle')==true &&
+                $two=='sˊappelle' or $two=='S′appelle' or $two=='s′appelle' or $two=='sˈappelle' or $two=='Sˈappelle' or $two=='S’appelle' or $two=='s’appelle')==true &&
             ($three=='la' or $three=='La')==true &&
             ($four=='recherche' or $four=='Recherche')==true &&
             ($five=='des' or $five=='Des')==true &&
