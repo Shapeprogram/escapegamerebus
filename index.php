@@ -14,8 +14,7 @@
 if(isset($_POST['submit']))
 {
     extract($_POST,EXTR_OVERWRITE);
-    print "form sent";
-    print $seven;
+    ?> <p><?php print "form sent";?></p><?php
 }
 ?>
 <section id="midlane">
