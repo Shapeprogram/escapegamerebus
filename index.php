@@ -23,7 +23,7 @@
         if
         (
             ($one=='comment' or $one=='Comment')==true &&
-            ($two=='s\'appelle' or $two=='sappelle' or $two=='Sappelle' or $two=='S\'appelle')==true &&
+            ($two=='s\'appelle' or $two=='sappelle' or $two=='Sappelle' or $two=='S\'appelle' or $two=='Sʹappelle' or $two=='sʹappelle')==true &&
             ($three=='la' or $three=='La')==true &&
             ($four=='recherche' or $four=='Recherche')==true &&
             ($five=='des' or $five=='Des')==true &&
